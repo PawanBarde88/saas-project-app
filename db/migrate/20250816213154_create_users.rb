@@ -4,5 +4,6 @@ class CreateUsers < ActiveRecord::Migration[8.0]
       t.string :email
       t.timestamps
     end
+    acts_as_tenant(:account)
   end
-end
+

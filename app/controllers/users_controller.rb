@@ -7,4 +7,9 @@ class UsersController < ApplicationController
     #flash[:notice] = 'Test email sent!'
     #redirect_to root_path  # Redirect to a suitable path (e.g., homepage)
   end
+
+  def index
+    @user = User.all
+  end
+  
 end

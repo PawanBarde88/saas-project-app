@@ -1,4 +1,4 @@
-require "devise/registrations_controller"
+
 
 # frozen_string_literal: true
 

@@ -39,6 +39,11 @@ gem "thruster", require: false
 
 #devise gem for authentication
 gem 'devise'
+gem "acts_as_tenant"
+
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

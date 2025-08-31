@@ -78,7 +78,7 @@ config.active_record.dump_schema_after_migration = true
   port: 587,
   authentication: :plain,
   user_name: 'apikey', # Use your actual SendGrid username
-  password: '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',   # Use your actual SendGrid password or API key
+    password: ENV['SENDGRID_API_KEY'],   # Use environment variable for SendGrid API key
   domain: 'localhost',                   # Change the domain to 'localhost'
   enable_starttls_auto: true
 }
